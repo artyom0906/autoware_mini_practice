@@ -40,7 +40,7 @@ find_package(std_msgs REQUIRED)
 ##   * add "message_runtime" and every package in MSG_DEP_SET to
 ##     catkin_package(CATKIN_DEPENDS ...)
 ##   * uncomment the add_*_files sections below as needed
-##     and list every .msg/.srv/.action file to be processed
+##     and list every .msg/.src/.action file to be processed
 ##   * uncomment the generate_messages entry below
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
@@ -51,11 +51,11 @@ find_package(std_msgs REQUIRED)
 #   Message2.msg
 # )
 
-## Generate services in the 'srv' folder
+## Generate services in the 'src' folder
 # add_service_files(
 #   FILES
-#   Service1.srv
-#   Service2.srv
+#   Service1.src
+#   Service2.src
 # )
 
 ## Generate actions in the 'action' folder

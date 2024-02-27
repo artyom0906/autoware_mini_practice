@@ -2,7 +2,7 @@
 
 This repo serves as an introduction to Autoware Mini. There are 8 practices that introduce the principles of main modules of Autoware Mini.
 
-![system diagram](/doc/diagram.png)
+![system diagram](/src/doc/diagram.png)
 
 ## Practices
 
@@ -37,7 +37,7 @@ This repo serves as an introduction to Autoware Mini. There are 8 practices that
    * [Copy public key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 * When cloning the repo it is advised to use SSH link
 
-![clone_ssh](/doc/cloning_ssh.png)
+![clone_ssh](/src/doc/cloning_ssh.png)
 
 #### Git commands
 

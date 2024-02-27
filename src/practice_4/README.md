@@ -45,7 +45,7 @@ This node makes it possible to plan a path on the map. So, instead of loading th
 3. Add lanelet2 map loading; you can use `lanelet2_map_visualizer` node as an example
    - import necessary classes from the lanelet2 library
    - read in necessary ros parameters from `localization.yaml` and `lanelet2_map_name` coming from launch file
-   - add the code that loads the [lanelet2 map](./nodes/planning/visualization/lanelet2_map_visualizer.py#L46-57)
+   - add the code that loads the [lanelet2 map](nodes/planning/visualization/lanelet2_map_visualizer.py#L46-57)
 4. Create a subscriber and the callback that will get the goal point. Goal point will be entered on the map using a button in rviz with a purple arrow: `2D Nav Goal`
    - The goal point will be published to topic: `/move_base_simple/goal`, type: `geometry_msgs/PoseStamped`
    - add [loginfo](https://wiki.ros.org/rospy_tutorials/Tutorials/Logging) message informing that the goalpoint has been received. 
